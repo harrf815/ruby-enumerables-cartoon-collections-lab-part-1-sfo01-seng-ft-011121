@@ -15,7 +15,7 @@ def list_dwarves(array)
   new_array = []
   count = 1
   array.each_with_index { | element, index | new_array[element] = index}
-  
+  new_array
   
 
 end
